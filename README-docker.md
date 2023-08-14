@@ -8,6 +8,7 @@ For running this docker, simply use the following commands:
 docker run -d --restart=always -p 25500:25500 tindy2013/subconverter:latest
 # then check its status
 curl http://localhost:25500/version
+#USE 25590 to ensure security
 # if you see `subconverter vx.x.x backend` then the container is up and running
 ```
 Or run in docker-compose:
